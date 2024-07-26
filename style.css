@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.maga{
+   position: absolute;
+   top: 250px;
+   background-color: red;
+   width: 250px;
+   height: 12px;
+   box-shadow: 10px 10px 5px 0px rgba(151,0,0,0.75);
+   -webkit-box-shadow: 10px 10px 5px 0px rgba(151,0,0,0.75);
+   -moz-box-shadow: 10px 10px 5px 0px rgba(151,0,0,0.75);
+   position: relative;
+   border-radius: 25%;
+   transform-origin: 100%;
+   animation: megatron 60s linear infinite ;
+
+
+}
+body{
+    background-color: rgb(62, 64, 66);
+}
+.parent{
+    margin: 80px auto;
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+    border-radius: 50%;
+    box-shadow: 10px 10px 5px 0px rgba(151,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(151,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(151,0,0,0.75);
+position: relative;
+background-image: url(./img.png);
+}
+@keyframes megatron {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+            transform: rotate(360deg);
+    }
+}
